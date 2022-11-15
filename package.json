@@ -1,0 +1,20 @@
+{
+  "name": "buku_tamu",
+  "version": "1.0.0",
+  "description": "Menyambut kehadiran WP tercinta",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azrael",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.20",
+    "xlsx": "^0.18.5"
+  }
+}
