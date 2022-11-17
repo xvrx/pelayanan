@@ -42,12 +42,12 @@ app.use("/", generalRoute);
 app.use("/xlsx", xlsx);
 
 mongoose
-  .connect("mongodb://localhost:27017/PelayananDB", {
+  .connect("mongodb://127.0.0.1:27017/PelayananDB", {
     serverSelectionTimeoutMS: 3000,
   })
   .then(() => console.log("connected to pelayananDB!"))
   .catch((err) => {
-    console.log("DB failed to connect!");
+    console.log("DB failed to connect!", err);
     err.message = {
       title: "database error",
       desc: "contact the server administrator!",

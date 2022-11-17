@@ -62,7 +62,7 @@ route.get('/pelayanan', async (req, res) => {
     } else if (quer?.lookFor?.length > 0) {
         // console.log('query opt: ', quer)
         try {
-            const pattern = { $regex: new RegExp(regPattern), $options: 'gi' }
+            const pattern = { $regex: new RegExp(regPattern), $options: 'i' }
             const criteria = { 
                $or: [
                     {"nama" : pattern},
