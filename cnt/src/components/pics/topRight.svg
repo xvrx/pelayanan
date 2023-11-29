@@ -1,0 +1,23 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1024px" height="768px" viewBox="0 0 1024 768">
+<defs>
+<image id="Bitmap_1" x="0" y="0" width="1913" height="934" xlink:href="./images/Bitmap_1.png"/>
+
+<g id="Layer0_0_FILL">
+<path fill="#FDC500" stroke="none" d="
+M 677.55 431.45
+Q 932.847265625 718.9220703125 756.45 769.4
+L 1024 769.4 1024 4.95
+Q 807.730078125 70.5326171875 958.9 369.75 1104.788671875 658.651171875 556.9 295.6
+L 677.55 431.45 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 0.814361572265625, 0, 0, 0.814361572265625, -534,7) ">
+<use xlink:href="#Bitmap_1"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_FILL"/>
+</g>
+</svg>

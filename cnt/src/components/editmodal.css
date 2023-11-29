@@ -1,0 +1,69 @@
+.edit-modal-outer-layer {
+  z-index: 99;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.edit-modal-outer-layer::-webkit-scrollbar {
+    position: absolute;
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  .edit-modal-outer-layer::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 5px;
+  }
+   
+  .edit-modal-outer-layer::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+  }
+  
+  .edit-modal-outer-layer:hover::-webkit-scrollbar-thumb {
+    background: #b4b6b798; 
+  }
+
+.edit-modal-outer-box {
+    margin-top: 57px;
+    margin-top: 20px;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 45em;
+    height: fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    background-color: #fff;
+}
+
+.close-container{
+    position: absolute;
+    cursor: pointer;
+    right: 16px;
+}
+
+.edit-modal-content {
+    margin-top: 25px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.submenu-section{
+    margin-top:10px;
+}
+
+.submenu-content{
+    font-size: 1.2rem;
+}

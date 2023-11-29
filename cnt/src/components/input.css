@@ -1,0 +1,658 @@
+
+.tunggakan-modal-npwp{
+    font-size: 1rem;
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-npwp-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-npwp-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.npwp-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.npwp-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-npwp-input:focus ~ #modal-npwp-input-label,
+.modal-npwp-input:valid ~ #modal-npwp-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-4px,-15px) scale(0.8);
+}
+
+.modal-npwp-input:focus ~ .npwp-modal-line,
+.modal-npwp-input:valid ~ .npwp-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+
+
+
+/*! END ===== */
+
+
+.tunggakan-modal-nama{
+    font-size: 1rem;
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-nama-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-nama-input{
+    font-size: 1rem;
+    left: 0;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.nama-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.nama-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-nama-input:focus ~ #modal-nama-input-label,
+.modal-nama-input:valid ~ #modal-nama-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-3px,-15px) scale(0.8);
+}
+
+.modal-nama-input:focus ~ .nama-modal-line,
+.modal-nama-input:valid ~ .nama-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+
+.tunggakan-modal-nik{
+    font-size: 1rem;
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-nik-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-nik-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.nik-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.nik-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-nik-input:focus ~ #modal-nik-input-label,
+.modal-nik-input:valid ~ #modal-nik-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-12px,-15px) scale(0.8);
+}
+
+.modal-nik-input:focus ~ .nik-modal-line,
+.modal-nik-input:valid ~ .nik-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+
+.tunggakan-modal-alamat{
+    font-size: 1rem;
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-alamat-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-alamat-input{
+    font-size: 1rem;
+    left: 0;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.alamat-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.alamat-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-alamat-input:focus ~ #modal-alamat-input-label,
+.modal-alamat-input:valid ~ #modal-alamat-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-5px,-15px) scale(0.8);
+}
+
+.modal-alamat-input:focus ~ .alamat-modal-line,
+.modal-alamat-input:valid ~ .alamat-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+.tunggakan-modal-klu{
+    
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-klu-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-klu-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.klu-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.klu-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-klu-input:focus ~ #modal-klu-input-label,
+.modal-klu-input:valid ~ #modal-klu-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-2px,-15px) scale(0.8);
+}
+
+.modal-klu-input:focus ~ .klu-modal-line,
+.modal-klu-input:valid ~ .klu-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+
+.tunggakan-modal-nohp{
+    
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-nohp-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-nohp-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.nohp-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.nohp-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-nohp-input:focus ~ #modal-nohp-input-label,
+.modal-nohp-input:valid ~ #modal-nohp-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-7px,-15px) scale(0.8);
+}
+
+.modal-nohp-input:focus ~ .nohp-modal-line,
+.modal-nohp-input:valid ~ .nohp-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+
+.tunggakan-modal-email{
+    
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-email-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-email-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 158px;
+}
+
+.email-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width:160px;
+    height: 1px;
+    cursor:text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.email-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-email-input:focus ~ #modal-email-input-label,
+.modal-email-input:valid ~ #modal-email-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-4px,-15px) scale(0.8);
+}
+
+.modal-email-input:focus ~ .email-modal-line,
+.modal-email-input:valid ~ .email-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+.tunggakan-modal-keterangan{
+    
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-keterangan-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-keterangan-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    width: 514px;
+}
+
+.keterangan-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width: 511px;
+    height: 1px;
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.keterangan-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-keterangan-input:focus ~ #modal-keterangan-input-label,
+.modal-keterangan-input:valid ~ #modal-keterangan-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-15px,-15px) scale(0.8);
+}
+
+.modal-keterangan-input:focus ~ .keterangan-modal-line,
+.modal-keterangan-input:valid ~ .keterangan-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
+
+
+.tunggakan-modal-penyelesaian{
+    
+    font-family: 'robotBold', sans-serif;
+    display: flex;
+    margin : 22px 22px 22px 0
+}
+
+
+.modal-penyelesaian-input-container{
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: fit-content;
+    cursor: text;
+    text-align: flex-start;
+}
+
+.modal-penyelesaian-input{
+    left: 0;
+    font-size: 1rem;
+    font-family: "robotNormal";
+    color: #4c4c4c;
+    border: none;
+    background: none;
+    outline: none;
+    text-decoration: none;
+    min-height: 70px;
+    max-height: 100px;
+    max-width: 514px;
+    min-width: 514px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+.modal-penyelesaian-input::-webkit-scrollbar {
+    position: absolute;
+    width: 10px;
+    border-radius: 5px;
+  }
+  
+  .modal-penyelesaian-input::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 5px;
+  }
+   
+  .modal-penyelesaian-input::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+  }
+  
+  .modal-penyelesaian-input:hover::-webkit-scrollbar-thumb {
+    background: #b4b6b798; 
+  }
+
+.penyelesaian-modal-line{
+    position: absolute;
+    background-color: rgb(224, 103, 103);
+    left: 0;
+    bottom: -2px;
+    width: 511px;
+    height: 1px;
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+} 
+
+
+.penyelesaian-modal-text{
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    left: 0px;
+    top: -3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: text;
+    transition: all 0.15s ease-in-out;
+}
+
+.modal-penyelesaian-input:focus ~ #modal-penyelesaian-input-label,
+.modal-penyelesaian-input:valid ~ #modal-penyelesaian-input-label { 
+    color: rgba(153, 153, 153, 1);
+    transform: translate(-10px,-15px) scale(0.8);
+}
+
+.modal-penyelesaian-input:focus ~ .penyelesaian-modal-line,
+.modal-penyelesaian-input:valid ~ .penyelesaian-modal-line
+{
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/*! END ===== */
